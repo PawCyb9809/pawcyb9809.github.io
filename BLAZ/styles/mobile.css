@@ -1,0 +1,323 @@
+
+@media screen and (max-width: 600px) {
+    body{
+        position: absolute;
+        min-width: 347px;
+        max-width: 600px;
+        top:0;
+        left:0;
+        width: 98%;
+        height: auto;
+        margin: 0 1%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-size: 1rem;
+    }
+    .containerform{
+        width: 97%;
+    }
+    .container{
+        width: 100%;
+        max-width: inherit;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        left:0;
+        width: 100%
+    } 
+
+   .sticky + #content {
+       padding-top: 20%;
+    }
+
+    .notify {
+        position: fixed;
+        left:10%;
+        top:35%;
+        z-index: 15;
+        width: 70%;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    #logo{
+        margin: -305px 0 0 -180px;
+    }
+
+    header{
+        position: relative;
+        width: inherit;
+        max-width: inherit;
+        height: 195px;
+        margin: 0px auto;
+        z-index: 1;
+    }
+
+    .headerLogo{
+        min-width: inherit;
+        width: inherit;
+        max-width: inherit; 
+        margin: auto;
+    }
+
+    .menu a:not(:first-child) {
+        display: none;
+    }
+
+    .menu a.icon {
+    height: 36px;
+    font-size: 25px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 12px 6% 0px 6%;
+      display: block;
+    }
+
+    .menu.responsive {
+        position: relative;
+        z-index: 2;
+    }
+
+    .menu.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+      //height: 15%;
+    }
+
+    .menu.responsive a {
+      //float: none;
+      position: sticky;
+      display: block;
+      text-align: left;
+      //height: 15%;
+    }
+
+    #menu-bt{
+        padding: 18px 32px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #content{
+        position: relative;
+        width: inherit;
+        max-width: inherit;
+        margin: 0% auto 0;
+        padding-bottom: 25px;
+        z-index: 0;
+    }
+    
+    #content-div1{
+        width: 96%;
+        float: left;
+        margin:  2% 2% 0 2%;
+    }
+
+    .imgdiv1{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+
+    #content-div2{
+        height: 200px;
+        width: 96%;
+        float: left;
+        margin:  2% 2% 0 2%;
+    }
+
+    #content-div3{
+        height: 200px;
+        width: 92%;
+        float: left;
+        margin:  2% 2% 0 2%;
+    }
+
+    #content-div3 p{
+        //padding: 4% 2% 2% 4%;
+    }
+
+    footer{
+        position: relative;
+        width: inherit;
+        max-width: inherit;
+        min-height: 200px;
+        height: auto;
+        margin: 0px auto;
+    }
+
+     #footer-div{
+         min-width: 100px;
+         min-height: 150px;
+         height: auto;
+         width: 96%;
+         position: relative;
+         display: inline-table;
+         margin: 2% 2% 2% 2%;
+         text-align: center;
+         padding:0 0 25px;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     }
+
+     .map{
+        min-width:200;
+        width:90%;
+        height:400px;
+    }
+
+    #copyright{
+        z-index: 0;
+        text-align: center;
+        position: relative;
+        width: inherit;
+        max-width: inherit;
+        margin: 0px auto;
+        height: auto;
+        padding-top: 10px;
+        font-size: 9px;
+    }
+
+
+
+
+
+
+
+
+
+    .mtitle{
+        //color:#3a3a3a;
+        font-size: 1.5rem;
+        text-align: center;
+        min-height: 0;
+    }
+    #mitem{
+        display: block;
+        line-height: 1.42857143;
+        //color:#3a3a3a;
+        min-height: 95px;
+        box-sizing: border-box;
+    }
+    #micon{
+        display: block;
+        float: none;
+        margin: 30px auto 0;
+        padding: 5px;
+        background: #d71010;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        text-align: center;
+        transition: all .25s ease-in-out;
+        box-sizing: border-box;
+    }
+    .mcontent{
+        display: block;
+        float: none;
+        margin: 0 30px 0;
+        height: initial;
+        border-radius: 50%;
+        text-align: center;
+        transition: all .25s ease-in-out;
+        box-sizing: border-box;
+    }
+    #micon > i{
+        font-size: 30px;
+        color: #FFF;
+        background: #d71010;
+        height: auto;
+        width: auto;
+        border-radius: 10px;
+        line-height: 34px;
+        text-align: center;
+    }
+    .icon{
+        height: 25px;
+        font-size: 28px;
+          position: relative;
+          top: 0;
+          left: right;
+          padding: 12px 6% 0px 6%;
+          display: block;
+    }
+    .item{
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .homeimg{
+        margin-bottom: 5%;
+    }
+    #micon p{
+        display: block;
+        margin-top: 1%;
+        padding-left: 2.5%;
+        margin-bottom: 5%;
+    }
+    
+    #mimg{
+        height: 40px;
+        margin: 30px auto 0;
+        background-color: #f2f2f2;
+        padding: 5px;
+        text-align: center;
+        transition: all .25s ease-in-out;
+        display: block;
+    }
+    
+    .flex-wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 auto 3%;
+        width: 90%;
+        min-width: 100px;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .flex-height{
+        height: auto;
+    }
+    .flex-item1{
+        text-align: center;
+        flex-grow: 1;
+        width: 98%;
+        height: auto;
+        margin: 0 1%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .flex-item1 p{
+        width: 93%;
+        text-align: center;
+    }
+    .flex-item2{
+        flex-grow: 1; 
+        width: 100%;  
+        max-width: 98%;
+        min-height: 150px;
+        height: auto; 
+       
+    }
+    .flex-item3{
+        text-align: center;
+        flex-grow: 1;
+        width: 98%;
+        height: auto;
+        justify-content: space-around;
+        margin: 5% 1%;
+        
+    }
+    .auta{
+        max-width: 100%;
+        height: auto;
+        max-height: 300px;
+        position: relative;
+    }
+}    
